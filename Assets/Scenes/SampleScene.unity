@@ -795,7 +795,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &83638543
 Transform:
   m_ObjectHideFlags: 0
@@ -3259,7 +3259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88e2bdde056321d4cb9acb13851f1b71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
 --- !u!4 &349536423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477896381554706, guid: bc3dd29916ce9d3419aba44d0d5bc872,
@@ -4899,40 +4899,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 532285211}
   m_PrefabAsset: {fileID: 0}
---- !u!84 &546286871
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 256
-  m_Height: 256
-  m_AntiAliasing: 1
-  m_DepthFormat: 0
-  m_ColorFormat: 5
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &559338491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1234835785202476, guid: 5c9fa89bd9ee36444a9655fbb06f00aa,
@@ -9998,6 +9964,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
+      propertyPath: wetLens.sprayFrames.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
+      propertyPath: wetLens.sprayFramesCutout.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
       propertyPath: gameObjects.mainCamera
       value: 
       objectReference: {fileID: 963194225}
@@ -10086,6 +10060,22 @@ PrefabInstance:
     - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
       propertyPath: gameObjects.bubble
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
+      propertyPath: wetLens.wetTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
+      propertyPath: wetLens.dryingTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11472682, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
+      propertyPath: wetLens.rundownSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318760, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48, type: 3}
@@ -15423,11 +15413,11 @@ MonoBehaviour:
   overridingColor: {r: 0.22196552, g: 0.8581366, b: 0.9999, a: 1}
   useShadow: 1
   shadowMapRenderTexture: {fileID: 0}
-  useCookie: 1
-  cookieMapRenderTexture: {fileID: 546286871}
+  useCookie: 0
+  cookieMapRenderTexture: {fileID: 2018504768}
   enableOutOfPhaseColor: 1
   outOfPhaseColorStrength: 0.25
-  outOfPhaseColor: {r: 0, g: 1, b: 1, a: 1}
+  outOfPhaseColor: {r: 0.075097084, g: 0.34268954, b: 1, a: 1}
   storeShadowDataShader: {fileID: 4800000, guid: fff19db2423616b4dbabe995cd97279e,
     type: 3}
   shadowDataRenderTexture: {fileID: 0}
@@ -15489,7 +15479,7 @@ Light:
       e33: 1
     m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 2800000, guid: 230d39f5d1322454cbf1a74216b27092, type: 3}
-  m_DrawHalo: 0
+  m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 1
   m_CullingMask:
@@ -16625,6 +16615,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e81d9117eb8f5f4b96126e7d8444802, type: 3}
+--- !u!84 &2018504768
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 256
+  m_Height: 256
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
+  m_ColorFormat: 5
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &2024786348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17880,7 +17904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &3122664348554427870
 MonoBehaviour:
   m_ObjectHideFlags: 0
