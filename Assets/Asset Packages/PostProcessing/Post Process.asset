@@ -122,16 +122,16 @@ MonoBehaviour:
         neutralWhiteClip: 10
       basic:
         postExposure: 1
-        temperature: 0
+        temperature: 25
         tint: 0
-        hueShift: 0
-        saturation: 1
+        hueShift: -15
+        saturation: 1.2
         contrast: 1
       channelMixer:
         red: {x: 1, y: 0, z: 0}
-        green: {x: 0, y: 1, z: 0}
+        green: {x: 0, y: 1.2, z: 0}
         blue: {x: 0, y: 0, z: 1}
-        currentEditingChannel: 0
+        currentEditingChannel: 1
       colorWheels:
         mode: 1
         log:
@@ -306,7 +306,7 @@ MonoBehaviour:
       lut: {fileID: 0}
       contribution: 1
   chromaticAberration:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       spectralTexture: {fileID: 0}
       intensity: 0.25
