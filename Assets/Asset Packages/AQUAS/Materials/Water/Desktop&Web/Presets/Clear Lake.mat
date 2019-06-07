@@ -112,7 +112,7 @@ Material:
     - _MediumTilingDistance: 500
     - _MediumWaveRefraction: 1.77
     - _MediumWavesSpeed: -120
-    - _MediumWavesTiling: 60
+    - _MediumWavesTiling: 15
     - _Metallic: 0
     - _Mode: 0
     - _NormalTiling: 1
@@ -126,7 +126,7 @@ Material:
     - _ShoreTransparency: 0.5
     - _SmallWaveRrefraction: 1.16
     - _SmallWavesSpeed: 60
-    - _SmallWavesTiling: 50
+    - _SmallWavesTiling: 15
     - _Specular: 1
     - _SrcBlend: 1
     - _UVSec: 0
