@@ -4,12 +4,13 @@ using System.Linq;
 
 namespace Battlehub.SplineEditor
 {
-    
     [CustomEditor(typeof(SplineControlPoint))]
     //[CanEditMultipleObjects]
     public class SplineControlPointEditor : SplineBaseEditor
     {
         private Spline m_spline;
+
+        public SerializedProperty rotationSpeedProp;
 
         public override void OnInspectorGUI()
         {
@@ -29,11 +30,11 @@ namespace Battlehub.SplineEditor
                 SplineBase.ActiveControlPointIndex = controlPoint.Index;
                 SplineBase.ActiveSpline = m_spline;
             }
-
         }
 
         protected override void OnEnableOverride()
         {
+            rotationSpeedProp = serializedObject.FindProperty("rotationSpeed");
             base.OnEnableOverride();
         }
 
@@ -55,6 +56,8 @@ namespace Battlehub.SplineEditor
                 return;
             }
 
+            rotationSpeedProp.floatValue = EditorGUILayout.FloatField("Rotation Speed", rotationSpeedProp.floatValue);
+
             if (ConvergingSpline)
             {
                 if (GUILayout.Button("Cancel"))
@@ -72,7 +75,6 @@ namespace Battlehub.SplineEditor
                 {
                     CreateBranch(m_spline, SelectedIndex, false);
                 }
-
             
 
                 if (curveIndex == m_spline.CurveCount - 1 && m_spline.NextSpline == null)

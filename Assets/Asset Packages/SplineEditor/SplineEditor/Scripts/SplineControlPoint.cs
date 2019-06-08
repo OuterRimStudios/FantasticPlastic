@@ -8,6 +8,7 @@ namespace Battlehub.SplineEditor
     [ExecuteInEditMode]
     public class SplineControlPoint : MonoBehaviour
     {
+        public float rotationSpeed = 150;
         private MeshRenderer m_renderer;
         private SplineBase m_spline;
         private Vector3 m_localPosition;
@@ -256,7 +257,7 @@ namespace Battlehub.SplineEditor
                     Vector3 ptPrev = m_spline.GetControlPoint(prevIndex);
                     Vector3 pt = m_spline.GetControlPoint(m_index);
                     m_rotation = Quaternion.AngleAxis(twist.Data, pt - ptPrev) * Quaternion.LookRotation(pt - ptPrev);
-                    transform.rotation = m_rotation;
+                    transform.rotation = Quaternion.RotateTowards(transform.rotation, m_rotation, rotationSpeed * Time.deltaTime);
                 }
                 else
                 {
@@ -264,7 +265,7 @@ namespace Battlehub.SplineEditor
                     Vector3 ptPrev = m_spline.GetControlPoint(m_index);
                     Vector3 pt = m_spline.GetControlPoint(nextIndex);
                     m_rotation = Quaternion.AngleAxis(twist.Data, pt - ptPrev) * Quaternion.LookRotation(pt - ptPrev);
-                    transform.rotation = m_rotation;
+                    transform.rotation = Quaternion.RotateTowards(transform.rotation, m_rotation, rotationSpeed * Time.deltaTime);
                 }
             }
             else
@@ -288,15 +289,15 @@ namespace Battlehub.SplineEditor
                         Vector3 ptPrev = m_spline.GetControlPoint(prevIndex);
                         Vector3 pt = m_spline.GetControlPoint(m_index);
                         m_rotation = Quaternion.AngleAxis(twist.Data, pt - ptPrev) * Quaternion.LookRotation(pt - ptPrev);
-                        transform.rotation = m_rotation;
+                        transform.rotation = Quaternion.RotateTowards(transform.rotation, m_rotation, rotationSpeed * Time.deltaTime);
                     }
                     else
                     {
                         int nextIndex = m_index + 1;
                         Vector3 ptPrev = m_spline.GetControlPoint(m_index);
                         Vector3 pt = m_spline.GetControlPoint(nextIndex);
-                        m_rotation = Quaternion.AngleAxis(twist.Data, pt - ptPrev) * Quaternion.LookRotation(pt - ptPrev); 
-                        transform.rotation = m_rotation;
+                        m_rotation = Quaternion.AngleAxis(twist.Data, pt - ptPrev) * Quaternion.LookRotation(pt - ptPrev);
+                        transform.rotation = Quaternion.RotateTowards(transform.rotation, m_rotation, rotationSpeed * Time.deltaTime);
                     }
                 }
             } 
