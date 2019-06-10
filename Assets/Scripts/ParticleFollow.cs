@@ -5,7 +5,7 @@ using UnityEngine;
 public class ParticleFollow : MonoBehaviour
 {
     [SerializeField] ParticleSystem leadParticles;
-    [SerializeField] GameObject creaturePrefab;
+    [SerializeField] GameObject[] creaturePrefabs;
     [SerializeField] float rotationSpeed = 25;
 
     List<Transform> creatureTransforms = new List<Transform>();
@@ -22,7 +22,7 @@ public class ParticleFollow : MonoBehaviour
         int particlesAlive = leadParticles.GetParticles(activeParticles);
         for (int i = 0; i < particlesAlive; i++)
         {
-            Transform creature = Instantiate(creaturePrefab, activeParticles[i].position, Quaternion.Euler(activeParticles[i].rotation3D), this.transform).transform;
+            Transform creature = Instantiate(creaturePrefabs[Random.Range(0,creaturePrefabs.Length)], activeParticles[i].position, Quaternion.Euler(activeParticles[i].rotation3D), this.transform).transform;
             creatureTransforms.Add(creature);
         }
 
