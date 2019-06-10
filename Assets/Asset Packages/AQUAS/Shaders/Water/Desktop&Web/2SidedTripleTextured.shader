@@ -559,6 +559,7 @@ Shader "AQUAS/Desktop and Web/Double-Sided/Triple-Textured Bumpy" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles gles3 metal xboxone ps4 psp2 n3ds wiiu 
             #pragma target 3.0
+
             struct VertexInput {
                 float4 vertex : POSITION;
             };
