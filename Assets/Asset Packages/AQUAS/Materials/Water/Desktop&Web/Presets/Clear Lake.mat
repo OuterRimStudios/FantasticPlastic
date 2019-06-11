@@ -121,7 +121,7 @@ Material:
     - _ReflectionIntensity: 0.436
     - _Refraction: 0.67
     - _RefractionDistance: 1000
-    - _RefractionFalloff: 1
+    - _RefractionFalloff: 0.15
     - _ShoreFade: 0.56
     - _ShoreTransparency: 0.5
     - _SmallWaveRrefraction: 2

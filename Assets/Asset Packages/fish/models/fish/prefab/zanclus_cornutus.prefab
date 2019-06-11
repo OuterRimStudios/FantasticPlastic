@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4937534149732450}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4811348924600678}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4632880996623398}
   - component: {fileID: 95956188153356706}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: zanclus_cornutus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4430830564386116}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4958804359716070}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4693608093187462}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -214,7 +214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4723365211354854}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4445518164457968}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4317137698652830}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4674555795769560}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: zanclus_cornutus_pose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4087333977975654}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4470142974014490}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4358204061655698}
   - component: {fileID: 137141214353568198}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: zanclus_cornutus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4561142762946310}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4159178171279068}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: neak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +558,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4257302940738768}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4393176754930198}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4128022310777032}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4995371280413128}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4376026825801726}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4383475195485948}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -743,7 +743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4258141313840826}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4466360403993556}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: general
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4931421051047630}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}

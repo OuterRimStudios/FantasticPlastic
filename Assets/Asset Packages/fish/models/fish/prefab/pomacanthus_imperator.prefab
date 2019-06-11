@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4979351721199404}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4294502209697724}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4699587363916548}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4798671106388946}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4067673394519208}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4152939506119474}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: neak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4570789709103104}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4062033455209068}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4814663526795138}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: pomacanthus_imperator_pose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4454128958035778}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4592818375622702}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4504176731628008}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4200548385002178}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4243141326724322}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4607237656077400}
   - component: {fileID: 137275822096069654}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: pomacanthus_imperator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4717401484104408}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4219878086955674}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -601,7 +601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4585401510368496}
   - component: {fileID: 95053289995195240}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: pomacanthus_imperator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4085836070179260}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4968001053703024}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -714,7 +714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4730556489705412}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: general
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4745415049393548}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4060324098086092}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4835099153031932}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}

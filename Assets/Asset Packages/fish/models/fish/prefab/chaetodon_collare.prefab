@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4631131518788048}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4836709891737614}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4452811365891748}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4260231112079256}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4555392145189968}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4584435453725502}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4361597374653262}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4228964648451500}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4052981238980604}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4008264480131044}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: chaetodon_collare_pose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4664960150369042}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -349,7 +349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4941359405367162}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4849491556201430}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4537463728540688}
   - component: {fileID: -4882205843250414999}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: chaetodon_collare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4295621261856546}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4393590180688040}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: general
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -525,7 +525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4113328999187640}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4430485837530874}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4585916128298338}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4630337654688982}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,7 +646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4937706279576846}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: neak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4592792640428516}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,7 +713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4396898762027460}
   - component: {fileID: 137464540796337180}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: chaetodon_collare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +806,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4115934815198102}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

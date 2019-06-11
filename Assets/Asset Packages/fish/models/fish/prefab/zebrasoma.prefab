@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4348063151720900}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4176694678649530}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4442858496948820}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4920887821033030}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4520295329668604}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4309694936578546}
   - component: {fileID: 137380039528280418}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: zebrasoma.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4481187966771554}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4506632367819920}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4747128918361970}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4488221319014578}
   - component: {fileID: 95149546021471490}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: zebrasoma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4790032660435922}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4968100942349946}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: head_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4746063834943010}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4438653767847940}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4986487542499880}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_2.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4886654129477008}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4490481910810808}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4803710554749398}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: tail_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4201734393661398}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: neak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -680,7 +680,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4712189839119420}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: general
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,7 +712,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4706498748010368}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +744,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4820433315292080}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,7 +774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4732048890613074}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: zebrasoma_pose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +805,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4187672977681542}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: fin_1.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
