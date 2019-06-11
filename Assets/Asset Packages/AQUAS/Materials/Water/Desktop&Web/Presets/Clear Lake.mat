@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Clear Lake
   m_Shader: {fileID: 4800000, guid: f625f9c13440d4e49bf26284e1c8c132, type: 3}
-  m_ShaderKeywords: _ENABLECUSTOMFOG_ON _ENABLEREFLECTIONS_ON _UNDERWATERMODE_ON
+  m_ShaderKeywords: _ENABLEREFLECTIONS_ON _UNDERWATERMODE_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -86,9 +86,9 @@ Material:
     - _DepthTransparency: 10
     - _DetailNormalMapScale: 1
     - _DistanceTilingFade: 1
-    - _Distortion: 0.15
+    - _Distortion: 2
     - _DstBlend: 0
-    - _EnableCustomFog: 1
+    - _EnableCustomFog: 0
     - _EnableReflections: 1
     - _Fade: 0.85
     - _FoamBlend: 0.5
