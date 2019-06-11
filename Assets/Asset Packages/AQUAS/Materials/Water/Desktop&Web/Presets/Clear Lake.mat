@@ -105,14 +105,14 @@ Material:
     - _Gloss: 0.9
     - _Glossiness: 0.5
     - _LargeWaveRefraction: 2
-    - _LargeWavesSpeed: 50
-    - _LargeWavesTiling: 5
+    - _LargeWavesSpeed: 20
+    - _LargeWavesTiling: 9
     - _LightWrapping: 2
     - _LongTilingDistance: 1500
     - _MediumTilingDistance: 500
     - _MediumWaveRefraction: 2
-    - _MediumWavesSpeed: -60
-    - _MediumWavesTiling: 5
+    - _MediumWavesSpeed: -22
+    - _MediumWavesTiling: 9
     - _Metallic: 0
     - _Mode: 0
     - _NormalTiling: 1
@@ -125,8 +125,8 @@ Material:
     - _ShoreFade: 0.56
     - _ShoreTransparency: 0.5
     - _SmallWaveRrefraction: 2
-    - _SmallWavesSpeed: 50
-    - _SmallWavesTiling: 2
+    - _SmallWavesSpeed: 20
+    - _SmallWavesTiling: 7
     - _Specular: 1
     - _SrcBlend: 1
     - _UVSec: 0
