@@ -587,7 +587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &226737966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,12 +604,12 @@ MonoBehaviour:
     shape: 2
     fading:
       falloffExponent: 0
-      xPositiveCubeFade: 0.25
-      xNegativeCubeFade: 0.25
-      yPositiveCubeFade: 0.25
-      yNegativeCubeFade: 0.25
-      zPositiveCubeFade: 0.25
-      zNegativeCubeFade: 0.25
+      xPositiveCubeFade: 0
+      xNegativeCubeFade: 0
+      yPositiveCubeFade: 0
+      yNegativeCubeFade: 0
+      zPositiveCubeFade: 0
+      zNegativeCubeFade: 0
       angularConeFade: 0.25
       distanceConeFade: 0.25
       widthCylinderFade: 0.25
@@ -650,7 +650,7 @@ MonoBehaviour:
   density:
     injectionParameters:
       enable: 1
-      strength: 0.5
+      strength: 2
       textureMaskLevelParameters:
         levelLowThreshold: 0
         levelHiThreshold: 1
@@ -658,10 +658,10 @@ MonoBehaviour:
         outputHiValue: 1
         contrast: 1
       noiseMaskLevelParameters:
-        levelLowThreshold: 0
+        levelLowThreshold: 0.6196319
         levelHiThreshold: 1
-        outputLowValue: 0
-        outputHiValue: 1
+        outputLowValue: 0.2
+        outputHiValue: 0.7
         contrast: 1
   anisotropy:
     injectionParameters:
@@ -695,7 +695,7 @@ MonoBehaviour:
         outputLowValue: 0
         outputHiValue: 1
         contrast: 1
-    color: {r: 0.013925552, g: 0.5708287, b: 1, a: 1}
+    color: {r: 0, g: 0.07347441, b: 1, a: 1}
   gizmoColor: {r: 0.5, g: 0.7232621, b: 1, a: 1}
 --- !u!4 &226737967
 Transform:
@@ -728,7 +728,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &255272167
 BoxCollider:
@@ -760,7 +760,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99528b8e41042ad43911d6decbb78c7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -819,7 +819,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &309695549
 BoxCollider:
@@ -851,7 +851,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99528b8e41042ad43911d6decbb78c7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -910,7 +910,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &393709426
 BoxCollider:
@@ -942,7 +942,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99528b8e41042ad43911d6decbb78c7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -998,8 +998,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
 --- !u!4 &451995539
 Transform:
   m_ObjectHideFlags: 0
@@ -1938,7 +1938,7 @@ PrefabInstance:
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 3}
       propertyPath: Azure_ShowCloudTab
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114091882027024874, guid: 719956f2167baeb4ba88ff88c8d8b83e,
         type: 3}
@@ -2592,8 +2592,8 @@ MonoBehaviour:
       enableTemporalReprojection: 0
       temporalReprojectionFactor: 0.9
       resolution: {x: 160, y: 88, z: 128}
-      farClipPlaneDistance: 50
-      density: 0.3
+      farClipPlaneDistance: 25
+      density: 1
       anisotropy: 0
       color: {r: 0.24999975, g: 0.2499999, b: 0.25, a: 1}
       colorStrength: 0.5
@@ -4502,7 +4502,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1145890877
 BoxCollider:
@@ -4534,7 +4534,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 99528b8e41042ad43911d6decbb78c7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
