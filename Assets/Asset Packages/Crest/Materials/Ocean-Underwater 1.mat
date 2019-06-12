@@ -9,9 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ocean-Underwater 1
   m_Shader: {fileID: 4800000, guid: 668aecf91371c8b4997e42c0c7b19527, type: 3}
-  m_ShaderKeywords: _APPLYNORMALMAPPING_ON _CAUSTICS_ON _COMPUTEDIRECTIONALLIGHT_ON
-    _DEBUGMULTIPLYBYLIGHT0COLOR_ON _FOAM3DLIGHTING_ON _FOAM_ON _SHADOWS_ON _SUBSURFACEHEIGHTLERP_ON
-    _SUBSURFACESCATTERING_ON _SUBSURFACESHALLOWCOLOUR_ON _TRANSPARENCY_ON _UNDERWATER_ON
+  m_ShaderKeywords: _APPLYNORMALMAPPING_ON _COMPUTEDIRECTIONALLIGHT_ON _DEBUGMULTIPLYBYLIGHT0COLOR_ON
+    _FOAM_ON _PLANARREFLECTIONS_ON _SUBSURFACEHEIGHTLERP_ON _SUBSURFACESCATTERING_ON
+    _SUBSURFACESHALLOWCOLOUR_ON _TRANSPARENCY_ON _UNDERWATER_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -77,7 +77,7 @@ Material:
     - _ApplyFlowToNormals: 0
     - _ApplyNormalMapping: 1
     - _BumpAmt: 0.514
-    - _Caustics: 1
+    - _Caustics: 0
     - _CausticsBase: 0.07
     - _CausticsBias: 0.7
     - _CausticsDepthOfField: 0.33
@@ -101,7 +101,7 @@ Material:
     - _DirectionalLightFallOff: 275
     - _Flow: 0
     - _Foam: 1
-    - _Foam3DLighting: 1
+    - _Foam3DLighting: 0
     - _FoamBubbleParallax: 0.05
     - _FoamScale: 10
     - _ForceUnderwater: 0
@@ -112,16 +112,16 @@ Material:
     - _NormalsScale: 20
     - _NormalsStrength: 0.28
     - _Offset: 0.00008
-    - _PlanarReflections: 0
+    - _PlanarReflections: 1
     - _ProceduralSky: 0
     - _RefractAmt: 0
     - _RefractionStrength: 0.01
     - _RefractiveIndexOfAir: 1.3
-    - _RefractiveIndexOfWater: 1.333
+    - _RefractiveIndexOfWater: 1.404
     - _S: 1
-    - _Shadows: 1
+    - _Shadows: 0
     - _ShorelineFoamMinDepth: 0.27
-    - _SkyDirectionality: 0.875
+    - _SkyDirectionality: 0.451
     - _StartLevel: 0.157
     - _StencilFunction: 0
     - _SubSurfaceBase: 0.24
@@ -154,8 +154,8 @@ Material:
     - _WaveFoamStart: 0
     - _WaveFoamStrength: 1
     m_Colors:
-    - _DepthFogDensity: {r: 0.1, g: 0.008, b: 0.1, a: 1}
-    - _Diffuse: {r: 0.6273585, g: 0.7829671, b: 1, a: 1}
+    - _DepthFogDensity: {r: 0.02, g: 0.02, b: 0.02, a: 1}
+    - _Diffuse: {r: 0.53626734, g: 0.71960664, b: 0.9716981, a: 1}
     - _DiffuseShadow: {r: 0.023584902, g: 0.6280324, b: 1, a: 1}
     - _FoamBubbleColor: {r: 0.6383055, g: 0.8301887, b: 0.8243741, a: 1}
     - _FoamWhiteColor: {r: 1, g: 0.99634784, b: 0.97199994, a: 0.6862745}
