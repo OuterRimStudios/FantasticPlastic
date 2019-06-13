@@ -85,6 +85,7 @@ namespace Battlehub.SplineEditor
     public class SplineFollow : MonoBehaviour
     {
         public float Speed = 5.0f;
+        public float rotationSpeed = 75f;
         public SplineBase Spline;
         public float Offset;
         public bool IsRunning = true;
@@ -229,7 +230,7 @@ namespace Battlehub.SplineEditor
             transform.position = position;
             Vector3 direction = ((position + dir) - transform.position).normalized;
             Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, direction.y, direction.z));
-            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
             //transform.LookAt(position + dir);
             transform.RotateAround(position, dir, twist);
         }

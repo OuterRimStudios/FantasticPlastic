@@ -361,6 +361,7 @@ namespace Crest
             // LODs up to but not including the last lod get the normal sets of waves
             if (lodIdx < lodCount - 1 && _drawLOD[lodIdx])
             {
+                if(_rasterMesh)
                 buf.DrawMesh(_rasterMesh, Matrix4x4.identity, _materials[lodIdx]);
             }
 
