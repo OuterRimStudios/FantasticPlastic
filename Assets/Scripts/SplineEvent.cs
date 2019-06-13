@@ -4,29 +4,22 @@ using UnityEngine;
 
 public class SplineEvent : MonoBehaviour
 {
-    public List<Transform> eventTriggers;
-
-    int currentEventTrigger;
+    public Transform eventTrigger;
     bool arrived;
 
     void Update()
     {
-        if (eventTriggers.Count > 0 && currentEventTrigger < eventTriggers.Count)
+        if (eventTrigger)
         {
-            float distanceToTrigger = Vector3.Distance(transform.position, eventTriggers[currentEventTrigger].position);
+            float distanceToTrigger = Vector3.Distance(transform.position, eventTrigger.position);
 
             if (!arrived && distanceToTrigger <= .1f)
             {
                 arrived = true;
-                distanceToTrigger++;
-
                 TriggerEvent();
             }
         }
     }
 
-    public virtual void TriggerEvent()
-    {
-        arrived = false;
-    }
+    public virtual void TriggerEvent() { }
 }
