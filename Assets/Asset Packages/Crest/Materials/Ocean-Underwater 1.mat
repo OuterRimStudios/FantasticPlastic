@@ -154,7 +154,7 @@ Material:
     - _WaveFoamStrength: 1
     m_Colors:
     - _DepthFogDensity: {r: 0.02, g: 0.01, b: 0.01, a: 1}
-    - _Diffuse: {r: 0.5137255, g: 0.7714087, b: 1, a: 1}
+    - _Diffuse: {r: 0.5137254, g: 0.7714087, b: 1, a: 1}
     - _DiffuseShadow: {r: 0.7735849, g: 0.23128797, b: 0.010946936, a: 1}
     - _FoamBubbleColor: {r: 1, g: 0.5615013, b: 0, a: 1}
     - _FoamWhiteColor: {r: 1, g: 0.09648319, b: 0, a: 0.6862745}
