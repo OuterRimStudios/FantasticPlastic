@@ -25,6 +25,7 @@ public class FleeInteraction : Interaction
     {
         if(!interacted)
         {
+            print(transform.name + " is Fleeing!");
             interacted = true;
             oldSpeed = splineFollow.Speed;
             animator.SetBool(parameterName, newValue);
