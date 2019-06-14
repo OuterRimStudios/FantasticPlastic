@@ -5,7 +5,7 @@ using UnityEngine.XR;
 
 public class HandController : MonoBehaviour
 {
-    public OVRInput.Controller device;
+    public XRNode device;
     public float interactionRadius;
     public LayerMask interactionLayer;
 
@@ -16,12 +16,24 @@ public class HandController : MonoBehaviour
     private void Update()
     {
         OVRInput.Update();
-        transform.localPosition = OVRInput.GetLocalControllerPosition(device);
-        transform.localRotation = OVRInput.GetLocalControllerRotation(device);
+        transform.position = InputTracking.GetLocalPosition(device);
+        transform.rotation = InputTracking.GetLocalRotation(device);
+        InputDevice controller = InputDevices.GetDeviceAtXRNode(device);
 
-        if (Physics.CheckSphere(transform.localPosition, interactionRadius, interactionLayer))
-            OVRInput.SetControllerVibration(frequency, amplitude, device);
+        Collider[] interactables = Physics.OverlapSphere(transform.position, interactionRadius, interactionLayer);
+
+        if (interactables.Length > 0)
+        {
+            controller.SendHapticImpulse(0, 1000);
+
+            Interaction interaction = interactables[0].GetComponent<Interaction>();
+
+            if (interaction)
+                interaction.Interact();
+
+            print("Triggered");
+        }
         else
-            OVRInput.SetControllerVibration(0, 0, device);
+            controller.SendHapticImpulse(0, 0);
     }
 }
