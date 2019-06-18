@@ -24,7 +24,7 @@ public class HandController : MonoBehaviour
 
         if (interactables.Length > 0)
         {
-            controller.SendHapticImpulse(0, 1000);
+            controller.SendHapticImpulse(0, amplitude, frequency);
 
             Interaction interaction = interactables[0].GetComponent<Interaction>();
 
