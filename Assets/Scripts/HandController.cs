@@ -16,7 +16,7 @@ public class HandController : MonoBehaviour
     private void Update()
     {
         OVRInput.Update();
-        transform.position = transform.TransformDirection (InputTracking.GetLocalPosition(device));
+        transform.position = InputTracking.GetLocalPosition(device);
         transform.rotation = InputTracking.GetLocalRotation(device);
         InputDevice controller = InputDevices.GetDeviceAtXRNode(device);
 
