@@ -30,10 +30,19 @@ public class HandController : MonoBehaviour
 
             if (interaction)
                 interaction.Interact();
-
-            print("Triggered");
         }
         else
             controller.SendHapticImpulse(0, 0);
+
+        List<InputDevice> controllers = new List<InputDevice>();
+        InputDevices.GetDevicesAtXRNode(device, controllers);
+
+        if (controllers.Count <= 0) return;
+
+        bool triggerValue;
+        if(controllers[0].TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
+        {
+            print(device +  " Trigger Pressed");
+        }
     }
 }
