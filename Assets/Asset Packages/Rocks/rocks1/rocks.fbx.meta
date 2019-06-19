@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: 11ce51cb0bb67d84bbe27ade7d40d621
+ModelImporter:
+  serializedVersion: 25
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock01
+    second: {fileID: 2100000, guid: df1982452b6ab3f4c94e38160132df77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock02
+    second: {fileID: 2100000, guid: b3769a6eb95f9074590bfd42dad902aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock03
+    second: {fileID: 2100000, guid: c59aaa2ae318e3f4b923028ebd964f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock04
+    second: {fileID: 2100000, guid: 8c559cb08ebc24d4ca74f422c71bcd97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock05
+    second: {fileID: 2100000, guid: 6e08ed911ea648f408b80bbdfe4ff08e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock06
+    second: {fileID: 2100000, guid: e4bedbc7efc6cf741b20b6137af86105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock07
+    second: {fileID: 2100000, guid: b913b09a7f5258d4d963ac93ff856683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock08
+    second: {fileID: 2100000, guid: 911d27494b14fca4c8de7dd2a3ff3305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock09
+    second: {fileID: 2100000, guid: 3d64f1d983fff4644bcba3de2f4f7c6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock10
+    second: {fileID: 2100000, guid: 2d58a5dec9b70414a960705a33d87db4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock11
+    second: {fileID: 2100000, guid: 90bbe12eb8b3ab541a37b3721161ff52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock12
+    second: {fileID: 2100000, guid: 9b296fd4fb8062146b74b26729423849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock13
+    second: {fileID: 2100000, guid: 760ebecf753801c40a7cef2c81d909bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock14
+    second: {fileID: 2100000, guid: b495dfcce655b27459fdbd65bdac96d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock15
+    second: {fileID: 2100000, guid: 1bd1a53ac11866f4fa3d9164285dc2ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock16
+    second: {fileID: 2100000, guid: 72459c6b0a5527442ac4703155629f75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock17
+    second: {fileID: 2100000, guid: 89e12335e8d46fc4abb1e22b247bf18e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock18
+    second: {fileID: 2100000, guid: fd43842e4baa80d42a0afd516a308756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock19
+    second: {fileID: 2100000, guid: 304931ac8d2f01a478908710a80a3bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock20
+    second: {fileID: 2100000, guid: 9d6866d95f5e2254b99a96a9027cd2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock21
+    second: {fileID: 2100000, guid: 6961c091e9abd1e45a98d7c1caf80d35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock22
+    second: {fileID: 2100000, guid: 19c1ee851cfbd684683251f15e2e4142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock23
+    second: {fileID: 2100000, guid: 367a186b77dd5174495f86e6ede6a837, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock24
+    second: {fileID: 2100000, guid: 512a4d52fa0db724e9d927d1555af5ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock25
+    second: {fileID: 2100000, guid: c7f163d576644444a837edee22299275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock26
+    second: {fileID: 2100000, guid: 3b7d436778df0a34cb96b97c630b5430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock27
+    second: {fileID: 2100000, guid: 26b272109ad5d7d42b29e981326e58d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock28
+    second: {fileID: 2100000, guid: c1c0a2671fa700e4d879c0b8cf80d73f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock30
+    second: {fileID: 2100000, guid: 824fb9031fc9ade4783b842e825511a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock32
+    second: {fileID: 2100000, guid: 2f401b4169783974db423e324b41396b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock33
+    second: {fileID: 2100000, guid: 9661d828347fd534f923cc5f0305680d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock34
+    second: {fileID: 2100000, guid: 77fae755550c26142bd50f4ebe5f5791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock35
+    second: {fileID: 2100000, guid: 7d600a6f26bdb44468e26d1c6ff4668e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock37
+    second: {fileID: 2100000, guid: 233035d838f7a2d479cd855e7b1923bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock39
+    second: {fileID: 2100000, guid: 0e103fcc9ab7a3c4a978bf9dbf742da8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock40
+    second: {fileID: 2100000, guid: 6dac82d10e7d1a645b602c33a04230b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock41
+    second: {fileID: 2100000, guid: 250e96adc012e304da2ddc74ce19f984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock42
+    second: {fileID: 2100000, guid: e043fca83230e164595c4d7e02751536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock43
+    second: {fileID: 2100000, guid: cff56093920730844b34e2d2740a96a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock44
+    second: {fileID: 2100000, guid: 722287f1fa76ff64d908845c7bc5cc9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock45
+    second: {fileID: 2100000, guid: 4c95fdd7b5690e74ca391e3f830572a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock46
+    second: {fileID: 2100000, guid: 91f3ff50853728f4794d93a31632dd51, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
