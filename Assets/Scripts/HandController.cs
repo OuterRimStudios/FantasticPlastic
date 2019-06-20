@@ -8,10 +8,13 @@ public class HandController : MonoBehaviour
     public XRNode device;
     public float interactionRadius;
     public LayerMask interactionLayer;
+    public LayerMask pickUpLayer;
 
     [Space]
     public float frequency = 1;
     public float amplitude = 1;
+
+    Rigidbody heldObject;
 
     private void Update()
     {
@@ -24,7 +27,10 @@ public class HandController : MonoBehaviour
 
         if (interactables.Length > 0)
         {
-            controller.SendHapticImpulse(0, amplitude, frequency);
+            IgnoreVibration ignoreVibration = interactables[0].GetComponent<IgnoreVibration>();
+
+            if(ignoreVibration == null)
+                controller.SendHapticImpulse(0, amplitude, frequency);
 
             Interaction interaction = interactables[0].GetComponent<Interaction>();
 
@@ -42,7 +48,29 @@ public class HandController : MonoBehaviour
         bool triggerValue;
         if(controllers[0].TryGetFeatureValue(CommonUsages.triggerButton, out triggerValue) && triggerValue)
         {
-            print(device +  " Trigger Pressed");
+            Collider[] colliders = Physics.OverlapSphere(transform.position, interactionRadius, pickUpLayer);
+
+            if(colliders.Length > 0)
+            {
+                heldObject = colliders[0].attachedRigidbody;
+                heldObject.useGravity = false;
+                heldObject.isKinematic = true;
+
+                heldObject.GetComponent<UpdatePosition>().enabled = true;
+
+                heldObject.transform.parent = transform;
+            }
+        }
+        else
+        {
+            if(heldObject)
+            {
+                heldObject.GetComponent<UpdatePosition>().enabled = false;
+                heldObject.transform.parent = null;
+                heldObject.isKinematic = false;
+                heldObject.useGravity = true;
+                heldObject = null;
+            }
         }
     }
 }
