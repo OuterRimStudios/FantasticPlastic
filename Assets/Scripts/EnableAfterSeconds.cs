@@ -10,6 +10,7 @@ public class EnableAfterSeconds : MonoBehaviour
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(enableAfter);
+        if(objectToEnable)
         objectToEnable.SetActive(true);
     }
 }

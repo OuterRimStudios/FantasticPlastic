@@ -16,7 +16,7 @@ TagManager:
   - VolumeLight
   - Ground
   - BottomLit
-  - 
+  - PickUp
   - AzureSkydome
   - AzureMoonSphere
   - Interactable

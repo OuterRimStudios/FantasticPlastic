@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpdatePosition : MonoBehaviour
+public class LayeredCamera : MonoBehaviour
 {
     void Update()
     {
