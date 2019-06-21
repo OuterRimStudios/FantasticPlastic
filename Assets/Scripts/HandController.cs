@@ -56,7 +56,7 @@ public class HandController : MonoBehaviour
                 heldObject.useGravity = false;
                 heldObject.isKinematic = true;
 
-                heldObject.GetComponent<UpdatePosition>().enabled = true;
+               // heldObject.GetComponent<UpdatePosition>().enabled = true;
 
                 heldObject.transform.parent = transform;
             }
@@ -65,7 +65,7 @@ public class HandController : MonoBehaviour
         {
             if(heldObject)
             {
-                heldObject.GetComponent<UpdatePosition>().enabled = false;
+                //heldObject.GetComponent<UpdatePosition>().enabled = false;
                 heldObject.transform.parent = null;
                 heldObject.isKinematic = false;
                 heldObject.useGravity = true;

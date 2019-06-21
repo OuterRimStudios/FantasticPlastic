@@ -5,65 +5,50 @@ using OuterRimStudios.Utilities;
 
 public class ScaleSplineEvent : SplineEvent
 {
+    public float speed;
     public Vector3 newScale;
-    
-    public Transform endPoint;
+    public Transform effectTriggerPoint;
 
     public GameObject effect;
-    public AudioClip sound;
-
-    public bool spawnAtEndPoint;
+    public AudioClip[] sounds;
 
     AudioSource source;
-    float startingScale;
-    float maxDistance;
+    bool triggered;
 
     private void Start()
     {
         source = GetComponent<AudioSource>();
-        source.clip = sound;
     }
 
     public override void TriggerEvent()
     {
-        maxDistance = MathUtilities.CheckDistance(eventTrigger.position, endPoint.position);
-        startingScale = transform.localScale.x;
-
-        if(!spawnAtEndPoint)
-        {
-            Instantiate(effect, eventTrigger.position, eventTrigger.localRotation);
-            source.Play();
-        }
+        source.clip = CollectionUtilities.GetRandomItem(sounds);
 
         StartCoroutine(ChangeScale());
         base.TriggerEvent();
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+
+        if(!triggered && MathUtilities.CheckDistance(transform.position, effectTriggerPoint.position) <= .1f)
+        {
+            triggered = true;
+            Instantiate(effect, eventTrigger.position, eventTrigger.localRotation);
+            source.Play();
+        }
     }
 
     IEnumerator ChangeScale()
     {
         yield return new WaitUntil(() => ChangingScale());
         transform.localScale = newScale;
-
-        if(spawnAtEndPoint)
-        {
-            Instantiate(effect, endPoint.position, Quaternion.identity);
-            source.Play();
-        }
     }
 
     bool ChangingScale()
     {
-        float currentDistance = MathUtilities.CheckDistance(transform.position, endPoint.position);
-        float scale;
-        
-        scale = Mathf.Abs(MathUtilities.MapValue(0, maxDistance, startingScale, newScale.x,  currentDistance));
-
-        scale = Mathf.Clamp(scale, startingScale, newScale.x);
-        print("Distance: " + maxDistance);
-        print("Current Distance: " + currentDistance);
-        print("Scale: " + scale);
-         
-        transform.localScale = new Vector3(scale, scale, scale);
-        return currentDistance <= .2f;
+        transform.localScale = Vector3.MoveTowards(transform.localScale, newScale, speed * Time.deltaTime);
+        return MathUtilities.CheckDistance(transform.localScale, newScale) <= 0f;
     }
 }

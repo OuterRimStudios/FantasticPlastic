@@ -19,6 +19,8 @@ public class GameTimer : MonoBehaviour
 
     public AudioMixer mixer;
 
+    public GameObject environment;
+
     float volumeLevel;
 
     public IEnumerator Start()
@@ -41,6 +43,8 @@ public class GameTimer : MonoBehaviour
     IEnumerator Fade(Color splashColor, Color sphereColor)
     {
         yield return new WaitUntil(() => Fading(ref splashColor, ref sphereColor));
+
+        environment.SetActive(false);
     }
 
     bool Fading(ref Color splashColor, ref Color sphereColor)

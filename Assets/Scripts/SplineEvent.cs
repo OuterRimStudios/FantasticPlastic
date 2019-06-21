@@ -1,17 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using OuterRimStudios.Utilities;
 
 public class SplineEvent : MonoBehaviour
 {
     public Transform eventTrigger;
     bool arrived;
 
-    void Update()
+    protected virtual void Update()
     {
         if (eventTrigger)
         {
-            float distanceToTrigger = Vector3.Distance(transform.position, eventTrigger.position);
+            float distanceToTrigger = MathUtilities.CheckDistance(transform.position, eventTrigger.position);
 
             if (!arrived && distanceToTrigger <= .1f)
             {
