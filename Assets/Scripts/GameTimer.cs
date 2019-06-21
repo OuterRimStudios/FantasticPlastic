@@ -28,6 +28,7 @@ public class GameTimer : MonoBehaviour
         yield return new WaitForSeconds(gameTime);
         Color splashColor = splashImage.color;
         Color sphereColor = sphereMesh.material.color;
+        sphereMesh.enabled = true;
         StartCoroutine(Fade(splashColor, sphereColor));
         StartCoroutine(FadeSounds());
     }
