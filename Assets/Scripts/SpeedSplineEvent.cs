@@ -11,7 +11,6 @@ public class SpeedSplineEvent : SplineEvent
 
     public override void TriggerEvent()
     {
-        print("Speed Event Triggered!");
         StartCoroutine(ChangeSpeed());
         base.TriggerEvent();
     }

@@ -10,7 +10,6 @@ public class AudioSplineEvent : SplineEvent
     public override void TriggerEvent()
     {
         base.TriggerEvent();
-        print(gameObject.name + " audio event triggered");
         source.PlayOneShot(clip);
     }
 }

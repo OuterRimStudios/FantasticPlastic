@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class GameTimer : MonoBehaviour
 {
@@ -27,6 +28,14 @@ public class GameTimer : MonoBehaviour
         Color sphereColor = sphereMesh.material.color;
         StartCoroutine(Fade(splashColor, sphereColor));
         StartCoroutine(FadeSounds());
+    }
+
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     IEnumerator Fade(Color splashColor, Color sphereColor)
