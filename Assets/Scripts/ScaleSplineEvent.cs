@@ -9,7 +9,7 @@ public class ScaleSplineEvent : SplineEvent
     public Vector3 newScale;
     public Transform effectTriggerPoint;
 
-    public GameObject effect;
+    public ObjectPooling effect;
     public AudioClip[] sounds;
 
     AudioSource source;
@@ -36,7 +36,15 @@ public class ScaleSplineEvent : SplineEvent
         if(!triggered && MathUtilities.CheckDistance(transform.position, effectTriggerPoint.position) <= .1f)
         {
             triggered = true;
-            Instantiate(effect, eventTrigger.position, eventTrigger.localRotation);
+
+            GameObject go = effect.GetPooledObject();
+
+            if (!go) return;
+
+            go.transform.position = effectTriggerPoint.position;
+            go.transform.rotation = effectTriggerPoint.localRotation;
+            go.SetActive(true);
+
             if (sounds.Length > 0)
                 source.Play();
         }
