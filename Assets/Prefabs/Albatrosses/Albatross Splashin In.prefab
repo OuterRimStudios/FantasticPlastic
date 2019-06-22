@@ -9469,8 +9469,9 @@ GameObject:
   - component: {fileID: 9064698263382335966}
   - component: {fileID: 9152288244253837472}
   - component: {fileID: 9152833570103679014}
+  - component: {fileID: -289142344852981956}
   m_Layer: 0
-  m_Name: Albatross Splashin
+  m_Name: Albatross Splashin In
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14273,6 +14274,18 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &-289142344852981956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063049343508352796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fa6e440588eef41882e92cb38ea7d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9063104528472992998
 GameObject:
   m_ObjectHideFlags: 0
