@@ -25,6 +25,7 @@ public class GameTimer : MonoBehaviour
 
     public IEnumerator Start()
     {
+        mixer.SetFloat("volume", 0);
         yield return new WaitForSeconds(gameTime);
         Color splashColor = splashImage.color;
         Color sphereColor = sphereMesh.material.color;

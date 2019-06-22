@@ -22,7 +22,8 @@ public class ScaleSplineEvent : SplineEvent
 
     public override void TriggerEvent()
     {
-        source.clip = CollectionUtilities.GetRandomItem(sounds);
+        if(sounds.Length > 0)
+            source.clip = CollectionUtilities.GetRandomItem(sounds);
 
         StartCoroutine(ChangeScale());
         base.TriggerEvent();
@@ -36,7 +37,8 @@ public class ScaleSplineEvent : SplineEvent
         {
             triggered = true;
             Instantiate(effect, eventTrigger.position, eventTrigger.localRotation);
-            source.Play();
+            if (sounds.Length > 0)
+                source.Play();
         }
     }
 
