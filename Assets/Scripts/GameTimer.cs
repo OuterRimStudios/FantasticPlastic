@@ -46,6 +46,7 @@ public class GameTimer : MonoBehaviour
     {
         yield return new WaitUntil(() => Fading(ref splashColor, ref sphereColor));
 
+        SceneLoader.Instance.LoadExecutable(0);
         environment.SetActive(false);
     }
 
